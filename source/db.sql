@@ -1,0 +1,6 @@
+CREATE TABLE raceusers(
+    userid INT(10) AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    username VARCHAR(255) NOT NULL,
+    speed INT(255) DEFAULT 0
+);
+
